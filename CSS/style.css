@@ -1,0 +1,564 @@
+
+
+@charset "utf-8";
+
+*{					/* Bildschirm reset*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#grossebox{
+	width:1700px;
+	height:900px;
+	background-color:black;
+	border-color:white;
+	display:flex;
+}	
+#grauebox{
+	width:1700px;
+	height:150px;
+	background-color:gray;
+	margin-left:-1000px;
+	margin-top:750px;
+	display:block;
+	
+}
+#grauebox img{
+	      height:70px;
+		  width:70px;
+		  margin-top:-70px;
+		  margin-left:250px;
+		  background-color:white;
+		  display:block;
+}
+#facebox{
+	     height:70px;
+		  width:70px;
+		  margin-top:40px;
+		  margin-left:-90px;
+		  background-color:white;
+		 
+}
+#facebox img{
+	     height:70px;
+		  width:70px;
+		  margin-top:-80px;
+		  margin-left:180px;
+		  background-color:white;
+		  display:block;
+		 
+}
+#instabox{
+	       height:80px;
+		  width:0px;
+		  margin-top:-90px;
+		  margin-left:150px;
+		  background-color:grey;
+		  display:block;
+		 
+}
+#instabox img{
+	     height:85px;
+		  width:70px;
+		  margin-top:10px;
+		  margin-left:250px;
+		  background-color:grey;
+		  display:block;
+		
+}
+#telefon{
+	      height:70px;
+		  width:70px;
+		  margin-top:10px;
+		  margin-left:250px;
+		  background-color:grey;
+		  display:block;
+}
+#telefon img{
+	     height:70px;
+		  width:70px;
+		  margin-top:-80px;
+		  margin-left:350px;
+		  background-color:grey;
+		 
+}
+	
+#bildbox {
+	      height:100px;
+		  width:200px;
+		  margin-top:10px;
+		  margin-left:800px;
+		  background-color:black;
+}
+#bildbox img{
+	      height:200px;
+		  width:200px;
+		  margin-top:-20px;
+		  margin-left:-100px;
+		  background-color:white;
+}
+#start{
+	      height:50px;
+		  width:180px;
+		  margin-top:220px;
+		  margin-left:-1695px;
+		  background-color:gray;
+}
+#start li{
+	    font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 20px;
+        font-weight:normal;
+}
+
+#corvette{
+	      height:50px;
+		  width:180px;
+		  margin-top:220px;
+		  margin-left:100px;
+		  background-color:gray;
+}
+#corvette li{
+	    font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 20px;
+        font-weight:normal;
+}
+#mercedes{
+	     height:50px;
+		  width:180px;
+		  margin-top:220px;
+		  margin-left:125px;
+		  background-color:gray;
+}
+#mercedes li{
+	    font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 20px;
+        font-weight:normal;
+}
+#porsche{
+	      height:50px;
+		  width:180px;
+		  margin-top:220px;
+		  margin-left:125px;
+		  background-color:gray
+}
+#porsche li{
+	    font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 20px;
+        font-weight:normal;
+}
+#bitter{
+	      height:50px;
+		  width:180px;
+		  margin-top:220px;
+		  margin-left:125px;
+		  background-color:gray;
+}
+#bitter li{
+	    font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 20px;
+        font-weight:normal;
+}
+#heritage{
+	     height:50px;
+		  width:180px;
+		  margin-top:220px;
+		  margin-left:125px;
+		  background-color:gray;	 
+}
+#heritage li{
+	    font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 20px;
+        font-weight:normal;
+		
+}
+#wiko{
+	     height:300px;
+		  width:1400px;
+		  margin-top:100px;
+		  margin-left:-1350px;
+		  background-color:black;
+}
+#wiko p{
+	    font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 80px;
+        font-weight:normal;
+		color:white;
+		
+}
+#grauebox p{
+	      height:20px;
+		  width:20px;
+		  margin-top:60px;
+		  margin-left:680px;
+		 font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 30px;
+        font-weight:normal;
+		color:white;
+}
+#gmailbox{  height:70px;
+		  width:70px;
+		  margin-top:810px;
+		  margin-left:-70px;
+		  background-color:grey;
+		  display:block;;
+}
+#gmailbox img{ height:65px;
+		  width:70px;
+		  margin-top:-35px;
+		  margin-left:-700px;
+		  background-color:white;
+		  display:block;
+}
+#gmailbox p{
+	      height:20px;
+		  width:20px;
+		  margin-top:-5px;
+		  margin-left:-610px;
+		 font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 30px;
+        font-weight:normal;
+		color:white;
+}
+#adresse{
+	height:70px;
+		  width:90px;
+		  margin-top:-80;
+		  margin-left:1200px;
+		  background-color:grey;
+}
+#adresse p{
+	      height:20px;
+		  width:60px;
+		  margin-top:-70px;
+		  margin-left:360px;
+		 font-family:Bahnschrift SemiBold;
+        font-style: normal;
+        font-size: 15px;
+        font-weight:normal;
+		color:white;
+}
+
+#corvettebox{
+	      height:200px;
+		  width:280px;
+		  margin-top:120px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#corvettebox img{
+	      height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+#corvette2{
+	      height:200px;
+		  width:280px;
+		  margin-top:10px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#corvette2 img{
+	      height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+#corvette3{
+	 height:200px;
+		  width:280px;
+		  margin-top:-200px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#corvette3 img{
+	 height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+#corvette4{
+	 height:200px;
+		  width:280px;
+		  margin-top:-410px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#corvette4 img{
+	 height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+#tabelle1{
+	      height:415px;
+	      width:280px;
+          margin-top:310px; 
+          margin-left:-950px;
+		  background-color:gray;
+}
+#tabelle1 table{
+	      height:500px;
+	      width:290px;
+          margin-top:0px; 
+          margin-left:-5px;
+		  background-color:gray;
+		  font-size:21px;
+}
+#Mercedesbox1{
+	 height:200px;
+		  width:280px;
+		  margin-top:120px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#Mercedesbox1 img{
+	height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+
+#Mercedesbox2{
+	     height:200px;
+		  width:280px;
+		  margin-top:10px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#Mercedesbox2 img{
+	     height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+	
+#Mercedesbox3{
+	      height:200px;
+		  width:280px;
+		  margin-top:-200px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#Mercedesbox3 img{
+	      height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+		  display:flex;
+}
+#Mercedesbox4{
+	height:200px;
+		  width:280px;
+		  margin-top:-410px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#Mercedesbox4 img{
+	    height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+#Porsche1{
+	 height:200px;
+		  width:280px;
+		  margin-top:120px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#Porsche1 img{
+	      height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+	
+#Porsche2{
+	height:200px;
+		  width:280px;
+		  margin-top:10px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#Porsche2 img{
+	 height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+	
+#Porsche3{
+	    height:200px;
+		  width:280px;
+		  margin-top:-200px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#Porsche3 img{
+	  height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+		  display:flex;
+}
+#Porsche4{
+	height:200px;
+		  width:280px;
+		  margin-top:-410px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#Porsche4 img{
+	 height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+#Bitter{
+	 height:200px;
+		  width:280px;
+		  margin-top:120px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#Bitter img{
+	 height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+#Bitter2{
+	height:200px;
+		  width:280px;
+		  margin-top:10px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#Bitter2 img{
+	height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px
+}
+
+#Bitter3{
+	height:200px;
+		  width:280px;
+		  margin-top:-200px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#Bitter3 img{
+	height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+		  display:flex;
+}
+
+	
+#Bitter4{
+	height:200px;
+		  width:280px;
+		  margin-top:-410px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#Bitter4 img{
+	height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+#Heritage{
+	height:200px;
+		  width:280px;
+		  margin-top:120px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#Heritage img{
+	 height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+
+#Heritage2{
+	height:200px;
+		  width:280px;
+		  margin-top:10px;
+		  margin-left:-695px;
+		  background-color:white;
+		  display:flex;
+}
+#Heritage2 img{
+	height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px
+}
+
+	
+#Heritage3{
+	height:200px;
+		  width:280px;
+		  margin-top:-200px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#Heritage3 img{
+	height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+		  display:flex;
+}
+
+#Heritage4{
+	height:200px;
+		  width:280px;
+		  margin-top:-410px;
+		  margin-left:-395px;
+		  background-color:white;
+		  display:flex;
+}
+#Heritage4 img{
+	height:200px;
+	      width:280px;
+          margin-top:0px; 
+          margin-left: 0px;
+}
+
+
+	
+	
